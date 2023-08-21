@@ -1,0 +1,83 @@
+.easy-section {
+    padding-top: 150px;
+    position: relative;
+}
+
+.easy-top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 332px;
+}
+
+.easy-top-info {
+    width: 445px;
+    margin-bottom: 80px;
+}
+
+.easy-title {
+    color: #36536B;
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+    margin-bottom: 24px;
+}
+
+.easy-text {
+    color: #6C8294;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    margin-bottom: 0;
+}
+
+
+
+.easy-img {
+    position: absolute;
+    z-index: 5;
+    top: 590px;
+    right: 0px;
+}
+
+.easy-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include list-style;
+    margin-top: 328px;
+}
+
+.easy-item {
+    width: 350px;
+    text-align: center;
+}
+
+.easy-item-title {
+    color: #36536B;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+    letter-spacing: -0.138px;
+    margin-bottom: 16px;
+}
+
+.easy-item-text {
+    color: #6C8294;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: -0.115px;
+    margin-bottom: 0;
+}

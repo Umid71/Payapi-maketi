@@ -1,0 +1,61 @@
+.site-header {
+    position: relative;
+    padding-top: 40px;
+    background: #EDF3F8;
+    
+}
+
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    @include list-style;
+    gap: 40px;
+    margin-left: 64px;
+}
+
+.header-link {
+    color: #36536B;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: .3s;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.header-btn {
+    position: relative;
+    z-index: 6;
+    color: #FBFCFE;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.115px;
+    border-radius: 24px;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border:none;
+    margin-left: auto;
+    padding: 15px 24px;
+    transition: .3s;
+    cursor: pointer;
+
+    &:hover {
+        opacity:.8;
+    }
+    
+}

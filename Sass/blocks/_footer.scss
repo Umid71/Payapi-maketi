@@ -1,0 +1,35 @@
+.site-footer {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background: #1B262F;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    @include list-style;
+    margin-left: 64px;
+    margin-right: auto;
+}
+
+.footer-link {
+    color: #FBFCFE;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: .7;
+    text-decoration: none;
+    transition: .3;
+
+    &:hover {
+        opacity: 1;
+    }
+}
